@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ultimosFragment"
+        android:title="Mis ultimos viajes" />
+
+    <item
+        android:id="@+id/drawer2Fragment"
+        android:title="Configuracion" />
+
+    <item
+        android:id="@+id/contactFragment"
+        android:title="Contáctanos" />
+
+    <item
+        android:id="@+id/tutorialFragment"
+        android:title="Ayuda" />
+
+    <item
+        android:id="@+id/drawer5Fragment"
+        android:title="Convertirse en conductor" />
+
+    <item
+        android:id="@+id/loginFragment"
+        android:title="Cerrar session" />
+
+
+</menu>

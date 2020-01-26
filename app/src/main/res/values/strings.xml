@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PideTuCoche</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_location">Recogida</string>
+    <string name="title_dashboard">Seguimiento</string>
+    <string name="title_notifications">Favoritos</string>
+    <string name="title_contratacion">Contratar servicio</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="password_lost"><u>¿Contraseña olvidada?</u></string>
+    <string name="ver_preguntas_frequentes"><u>Ver preguntas \nfrequentes</u></string>
+</resources>

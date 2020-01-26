@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/recogidaFragment"
+        android:icon="@drawable/ic_location_on_black_24dp"
+        android:title="@string/title_location" />
+
+    <item
+        android:id="@+id/seguimientoFragment"
+        android:icon="@drawable/ic_access_time_black_24dp"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/favoritosFragment"
+        android:icon="@drawable/ic_star_black_24dp"
+        android:title="@string/title_notifications" />
+</menu>

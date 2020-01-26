@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".view.auth.LoginFragment"
+        android:background="@drawable/app_background"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="76dp"
+                android:text="PideTuCoche"
+                android:textColor="#ffffff"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edittext_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginRight="16dp"
+                android:backgroundTint="#ffffff"
+                android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+                android:drawablePadding="16dp"
+                android:drawableTint="#ffffff"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edittext_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="16dp"
+                android:backgroundTint="#ffffff"
+                android:drawableLeft="@drawable/ic_password_black_24dp"
+                android:drawablePadding="16dp"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_acceder"
+                android:layout_width="320dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="48dp"
+                android:background="#4688E4"
+                android:text="INICIAR SESSION"
+                android:textColor="@android:color/white"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/edittext_irAlRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center"
+                android:text="@string/password_lost"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/app_background"
+                    android:backgroundTint="#ffffff"
+                    android:orientation="vertical"
+                    android:layout_alignParentBottom="true">
+
+                    <TextView
+                        android:id="@+id/medium_20pt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginTop="20dp"
+                        android:text="Si no tienes cuenta..."
+                        android:textColor="#DE000000"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button_iralregistro"
+                        android:layout_width="320dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginTop="16dp"
+                        android:background="#3E3E3E"
+                        android:text="REGISTRATE"
+                        android:textColor="@android:color/white"
+                        tools:layout_editor_absoluteX="0dp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/map0"
+                android:layout_width="500dp"
+                android:layout_height="170dp"
+                android:src="@drawable/map"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/profileIcon0"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_account_circle_black_24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/map0"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/date0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:text="28/01/2019  a las 16:29H"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon0"
+                app:layout_constraintTop_toBottomOf="@+id/map0" />
+
+            <TextView
+                android:id="@+id/direction0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Santa Coloma de Gramenet"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon0"
+                app:layout_constraintTop_toBottomOf="@+id/date0" />
+
+            <RatingBar
+                android:id="@+id/ratingBar0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:scaleX=".7"
+                android:scaleY=".7"
+                android:numStars="5"
+                android:rating="5"
+                android:transformPivotX="0dp"
+                android:transformPivotY="0dp"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon0"
+                app:layout_constraintTop_toBottomOf="@+id/direction0"
+                android:theme="@style/RatingBar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="23,25€"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/ratingBar0"
+                app:layout_constraintTop_toBottomOf="@+id/direction0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/map1"
+                android:layout_width="500dp"
+                android:layout_height="170dp"
+                android:src="@drawable/map"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/profileIcon1"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_account_circle_black_24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/map1"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/date1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:text="28/01/2019  a las 16:29H"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon1"
+                app:layout_constraintTop_toBottomOf="@+id/map1" />
+
+            <TextView
+                android:id="@+id/direction1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Santa Coloma de Gramenet"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon1"
+                app:layout_constraintTop_toBottomOf="@+id/date1" />
+
+            <RatingBar
+                android:id="@+id/ratingBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:scaleX=".7"
+                android:scaleY=".7"
+                android:numStars="5"
+                android:rating="5"
+                android:transformPivotX="0dp"
+                android:transformPivotY="0dp"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon1"
+                app:layout_constraintTop_toBottomOf="@+id/direction1"
+                android:theme="@style/RatingBar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="23,25€"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/ratingBar1"
+                app:layout_constraintTop_toBottomOf="@+id/direction1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/map2"
+                android:layout_width="500dp"
+                android:layout_height="170dp"
+                android:src="@drawable/map"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/profileIcon2"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_account_circle_black_24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/map2"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/date2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:text="28/01/2019  a las 16:29H"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon2"
+                app:layout_constraintTop_toBottomOf="@+id/map2" />
+
+            <TextView
+                android:id="@+id/direction2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Santa Coloma de Gramenet"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon2"
+                app:layout_constraintTop_toBottomOf="@+id/date2" />
+
+            <RatingBar
+                android:id="@+id/ratingBar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:scaleX=".7"
+                android:scaleY=".7"
+                android:numStars="5"
+                android:rating="5"
+                android:transformPivotX="0dp"
+                android:transformPivotY="0dp"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon2"
+                app:layout_constraintTop_toBottomOf="@+id/direction2"
+                android:theme="@style/RatingBar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="23,25€"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/ratingBar2"
+                app:layout_constraintTop_toBottomOf="@+id/direction2" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/map3"
+                android:layout_width="500dp"
+                android:layout_height="170dp"
+                android:src="@drawable/map"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/profileIcon3"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_account_circle_black_24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/map3"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/date3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:text="28/01/2019  a las 16:29H"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon3"
+                app:layout_constraintTop_toBottomOf="@+id/map3" />
+
+            <TextView
+                android:id="@+id/direction3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Santa Coloma de Gramenet"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon3"
+                app:layout_constraintTop_toBottomOf="@+id/date3" />
+
+            <RatingBar
+                android:id="@+id/ratingBar3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:scaleX=".7"
+                android:scaleY=".7"
+                android:numStars="5"
+                android:rating="5"
+                android:transformPivotX="0dp"
+                android:transformPivotY="0dp"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon3"
+                app:layout_constraintTop_toBottomOf="@+id/direction3"
+                android:theme="@style/RatingBar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="23,25€"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/ratingBar3"
+                app:layout_constraintTop_toBottomOf="@+id/direction3" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/map4"
+                android:layout_width="500dp"
+                android:layout_height="170dp"
+                android:src="@drawable/map"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/profileIcon4"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_account_circle_black_24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/map4"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/date4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:text="28/01/2019  a las 16:29H"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon4"
+                app:layout_constraintTop_toBottomOf="@+id/map4" />
+
+            <TextView
+                android:id="@+id/direction4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Santa Coloma de Gramenet"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon4"
+                app:layout_constraintTop_toBottomOf="@+id/date4" />
+
+            <RatingBar
+                android:id="@+id/ratingBar4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:scaleX=".7"
+                android:scaleY=".7"
+                android:numStars="5"
+                android:rating="5"
+                android:transformPivotX="0dp"
+                android:transformPivotY="0dp"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon4"
+                app:layout_constraintTop_toBottomOf="@+id/direction4"
+                android:theme="@style/RatingBar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="23,25€"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/ratingBar4"
+                app:layout_constraintTop_toBottomOf="@+id/direction4" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/map5"
+                android:layout_width="500dp"
+                android:layout_height="170dp"
+                android:src="@drawable/map"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/profileIcon5"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_account_circle_black_24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/map5"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/date5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:text="28/01/2019  a las 16:29H"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon5"
+                app:layout_constraintTop_toBottomOf="@+id/map5" />
+
+            <TextView
+                android:id="@+id/direction5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Santa Coloma de Gramenet"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon5"
+                app:layout_constraintTop_toBottomOf="@+id/date5" />
+
+            <RatingBar
+                android:id="@+id/ratingBar5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:scaleX=".7"
+                android:scaleY=".7"
+                android:numStars="5"
+                android:rating="5"
+                android:transformPivotX="0dp"
+                android:transformPivotY="0dp"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon5"
+                app:layout_constraintTop_toBottomOf="@+id/direction5"
+                android:theme="@style/RatingBar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="23,25€"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/ratingBar5"
+                app:layout_constraintTop_toBottomOf="@+id/direction5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/map6"
+                android:layout_width="500dp"
+                android:layout_height="170dp"
+                android:src="@drawable/map"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/profileIcon6"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_account_circle_black_24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/map6"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/date6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:text="28/01/2019  a las 16:29H"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon6"
+                app:layout_constraintTop_toBottomOf="@+id/map6" />
+
+            <TextView
+                android:id="@+id/direction6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Santa Coloma de Gramenet"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon6"
+                app:layout_constraintTop_toBottomOf="@+id/date6" />
+
+            <RatingBar
+                android:id="@+id/ratingBar6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:scaleX=".7"
+                android:scaleY=".7"
+                android:numStars="5"
+                android:rating="5"
+                android:transformPivotX="0dp"
+                android:transformPivotY="0dp"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon6"
+                app:layout_constraintTop_toBottomOf="@+id/direction6"
+                android:theme="@style/RatingBar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="23,25€"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/ratingBar6"
+                app:layout_constraintTop_toBottomOf="@+id/direction6" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/map7"
+                android:layout_width="500dp"
+                android:layout_height="170dp"
+                android:src="@drawable/map"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/profileIcon7"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_account_circle_black_24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/map7"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/date7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:text="28/01/2019  a las 16:29H"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon7"
+                app:layout_constraintTop_toBottomOf="@+id/map7" />
+
+            <TextView
+                android:id="@+id/direction7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Santa Coloma de Gramenet"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon7"
+                app:layout_constraintTop_toBottomOf="@+id/date7" />
+
+            <RatingBar
+                android:id="@+id/ratingBar7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:scaleX=".7"
+                android:scaleY=".7"
+                android:numStars="5"
+                android:rating="5"
+                android:transformPivotX="0dp"
+                android:transformPivotY="0dp"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon7"
+                app:layout_constraintTop_toBottomOf="@+id/direction7"
+                android:theme="@style/RatingBar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="23,25€"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/ratingBar7"
+                app:layout_constraintTop_toBottomOf="@+id/direction7" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/map8"
+                android:layout_width="500dp"
+                android:layout_height="170dp"
+                android:src="@drawable/map"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/profileIcon8"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_account_circle_black_24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/map8"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/date8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:text="28/01/2019  a las 16:29H"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon8"
+                app:layout_constraintTop_toBottomOf="@+id/map8" />
+
+            <TextView
+                android:id="@+id/direction8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Santa Coloma de Gramenet"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon8"
+                app:layout_constraintTop_toBottomOf="@+id/date8" />
+
+            <RatingBar
+                android:id="@+id/ratingBar8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:scaleX=".7"
+                android:scaleY=".7"
+                android:numStars="5"
+                android:rating="5"
+                android:transformPivotX="0dp"
+                android:transformPivotY="0dp"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon8"
+                app:layout_constraintTop_toBottomOf="@+id/direction8"
+                android:theme="@style/RatingBar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="23,25€"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/ratingBar8"
+                app:layout_constraintTop_toBottomOf="@+id/direction8" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/map9"
+                android:layout_width="500dp"
+                android:layout_height="170dp"
+                android:src="@drawable/map"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/profileIcon9"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_account_circle_black_24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/map9"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/date9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:text="28/01/2019  a las 16:29H"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon9"
+                app:layout_constraintTop_toBottomOf="@+id/map9" />
+
+            <TextView
+                android:id="@+id/direction9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Santa Coloma de Gramenet"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon9"
+                app:layout_constraintTop_toBottomOf="@+id/date9" />
+
+            <RatingBar
+                android:id="@+id/ratingBar9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:scaleX=".7"
+                android:scaleY=".7"
+                android:numStars="5"
+                android:rating="5"
+                android:transformPivotX="0dp"
+                android:transformPivotY="0dp"
+                app:layout_constraintStart_toEndOf="@+id/profileIcon9"
+                app:layout_constraintTop_toBottomOf="@+id/direction9"
+                android:theme="@style/RatingBar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="23,25€"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/ratingBar9"
+                app:layout_constraintTop_toBottomOf="@+id/direction9" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</ScrollView>
